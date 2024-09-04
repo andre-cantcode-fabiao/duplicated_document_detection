@@ -1,0 +1,11 @@
+name: document-duplicate
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - uvicorn
+  - fastapi
+  - requests
+  - python-multipart
+  - openai

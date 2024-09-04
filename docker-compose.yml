@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build: .
+    environment:
+      - STORAGE_FOLDER_PATH
+      - STORAGE_SERVICE
+      - OPENAI_API_KEY
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./documents:/app/documents
+    restart: always
