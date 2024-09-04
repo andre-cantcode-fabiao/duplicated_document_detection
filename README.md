@@ -15,9 +15,9 @@ Before you start, ensure you have the following installed:
 
 Change the OPENAI_API_KEY to your personal que in the '.env' file.
 
-'''bash
+```bash
 OPENAI_API_KEY=your_openai_api_key
-'''
+```
 
 ### Running the Service Locally
 
